@@ -1,10 +1,10 @@
 # dqn-perudo
 
-Hi,this is the initial version of using DQN to play Perudo against a robot.
+Hi,this is the initial version of using DQN to play Perudo against a robot. This whole project is based on 
 
 There are 4 layers that had been created. 
  
-The first layertakes a state-action pair as an input layer. The middle layers consist of two hidden layers. The last layer is a Q-value outputlayer, used to conduct the next step. 
+The first layer takes a state-action pair as an input layer. The middle layers consist of two hidden layers. The last layer is a Q-value outputlayer, used to conduct the next step. 
  
 The action space contains ‘Dudo’ and all possible valid bids.
  
