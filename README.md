@@ -1,6 +1,6 @@
-# dqn-perudo
+# DQN-Perudo
 
-Hi,this is the initial version of using DQN to play Perudo against a robot. 
+Hi,this is the initial version of using DQN to train an AI to play Perudo against a robot. 
 
 There are 4 layers that had been created. 
  
