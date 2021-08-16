@@ -10,7 +10,10 @@ The action space contains ‘Dudo’ and all possible valid bids.
  
 To connect each layer, l use an activation function, Leaky-Relu in Pytorch(since it has a faster convergence speed and lower computational complexity compared with alternative activation functions), to map the input layer to the hidden layers.
 
-The memory set can be changed from a low value to high value, l found that with around 1,000 memory samples is not enough for its low winning rate.
+The memory set can be changed from a low value to high value, l found that with around 2,000 memory samples is not enough for its low winning rate.
+![0 001%202000%20axis](https://user-images.githubusercontent.com/35072133/129561410-0db81908-0c66-4ff2-929d-6778b09d0ed1.png)
+![0 001%20100000%20axis](https://user-images.githubusercontent.com/35072133/129561424-bb39f7c0-ffe1-4216-91a9-8dda69040feb.png)
+
 
 However, for higher memory around 100,000, it will increase the winning rate to around 75%, althought it is not as high as methods like Q-Learning(around 85%).
 
